@@ -7,7 +7,7 @@ library(viridis)
 library(rugarch)
 
 #Load Fed Bond Data 
-yc_raw <- read_csv("FED-SVENY.csv")
+yc_raw <- read.csv("FED-SVENY.csv")
 
 #Convert to xts 
 date <- as.Date(yc_raw$Date)
